@@ -1,6 +1,6 @@
-# Contributing to Modern Ontology Editor
+# Contributing to ProtegeDesk
 
-Thank you for your interest in contributing to Modern Ontology Editor! This document provides guidelines and instructions for contributing.
+Thank you for your interest in contributing to ProtegeDesk! This document provides guidelines and instructions for contributing.
 
 ## 📋 Table of Contents
 
@@ -76,11 +76,11 @@ Looking for a good first issue? Check out:
 # Fork the repository on GitHub
 # Then clone your fork
 
-git clone https://github.com/YOUR_USERNAME/modern-ontology-editor.git
-cd modern-ontology-editor
+git clone https://github.com/YOUR_USERNAME/ProtegeDesk.git
+cd ProtegeDesk
 
 # Add upstream remote
-git remote add upstream https://github.com/original/modern-ontology-editor.git
+git remote add upstream https://github.com/original/ProtegeDesk.git
 ```
 
 ### 2. Install Dependencies
@@ -129,7 +129,7 @@ npm run validate
 We use a simplified Git Flow:
 
 - `main` - Production-ready code
-- `develop` - Integration branch for features
+- `main` - Integration branch for features
 - `feature/*` - New features
 - `fix/*` - Bug fixes
 - `docs/*` - Documentation updates
@@ -139,8 +139,8 @@ We use a simplified Git Flow:
 
 ```bash
 # Update your fork
-git checkout develop
-git pull upstream develop
+git checkout main
+git pull upstream main
 
 # Create feature branch
 git checkout -b feature/your-feature-name
@@ -201,11 +201,11 @@ Fixes #456
 git fetch upstream
 
 # Merge into your branch
-git checkout develop
-git merge upstream/develop
+git checkout main
+git merge upstream/main
 
 # Update your fork on GitHub
-git push origin develop
+git push origin main
 ```
 
 ---
@@ -460,7 +460,7 @@ test('user can create a new ontology', async ({ page }) => {
 
 ### Before Submitting
 
-1. **Update your branch** with latest develop
+1. **Update your branch** with latest main
 2. **Run all tests** - `npm test`
 3. **Run linting** - `npm run lint`
 4. **Run type checking** - `npm run type-check`
@@ -514,7 +514,7 @@ Closes #123
 2. **Code review** by at least one maintainer
 3. **Changes requested** - address feedback
 4. **Approval** - maintainer approves PR
-5. **Merge** - maintainer merges to develop
+5. **Merge** - maintainer merges to main
 
 ### After Merge
 
@@ -522,9 +522,9 @@ Closes #123
 2. **Update your fork**:
 
 ```bash
-git checkout develop
-git pull upstream develop
-git push origin develop
+git checkout main
+git pull upstream main
+git push origin main
 ```
 
 ---
@@ -539,7 +539,7 @@ git push origin develop
 
 ### Bug Reports
 
-Use the [bug report template](https://github.com/yourusername/modern-ontology-editor/issues/new?template=bug_report.md)
+Use the [bug report template](https://github.com/yourusername/ProtegeDesk/issues/new?template=bug_report.md)
 
 **Include**:
 
@@ -553,7 +553,7 @@ Use the [bug report template](https://github.com/yourusername/modern-ontology-ed
 
 ### Feature Requests
 
-Use the [feature request template](https://github.com/yourusername/modern-ontology-editor/issues/new?template=feature_request.md)
+Use the [feature request template](https://github.com/yourusername/ProtegeDesk/issues/new?template=feature_request.md)
 
 **Include**:
 
@@ -567,9 +567,9 @@ Use the [feature request template](https://github.com/yourusername/modern-ontolo
 
 For questions, use:
 
-- [GitHub Discussions](https://github.com/yourusername/modern-ontology-editor/discussions)
+- [GitHub Discussions](https://github.com/yourusername/ProtegeDesk/discussions)
 - [Discord/Slack](link) for real-time chat
-- Stack Overflow with tag `modern-ontology-editor`
+- Stack Overflow with tag `ProtegeDesk`
 
 ---
 
@@ -662,7 +662,7 @@ We use [Semantic Versioning](https://semver.org/):
 7. Push tags: `git push --tags`
 8. GitHub Actions builds and deploys
 9. Publish release notes
-10. Merge back to `develop`
+10. Merge back to `main`
 
 ---
 
@@ -672,9 +672,9 @@ If you have questions about contributing, please:
 
 1. Check this guide
 2. Read the [documentation](docs/)
-3. Ask in [GitHub Discussions](https://github.com/yourusername/modern-ontology-editor/discussions)
+3. Ask in [GitHub Discussions](https://github.com/yourusername/ProtegeDesk/discussions)
 4. Join our [Discord/Slack](link)
 
 ---
 
-**Thank you for contributing to Modern Ontology Editor! 🎉**
+**Thank you for contributing to ProtegeDesk! 🎉**
